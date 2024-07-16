@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,10 +16,6 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-}
-
-.row .container{
-    
 }
 
 .container {
@@ -77,6 +74,7 @@ body {
     width: 12.5rem;
     border-radius: 1.8rem;
 }
+
 .container .row:nth-child(2) button:first-child:hover {
     background-color: green;
 }
