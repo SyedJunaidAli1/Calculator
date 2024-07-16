@@ -7,6 +7,9 @@
     text-align: center;
     color: whitesmoke;
     font-family: "Comfortaa", sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 body {
