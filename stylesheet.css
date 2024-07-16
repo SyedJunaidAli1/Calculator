@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Comfortaa", sans-serif;
+}
+
+body {
+    /* background-color: #141414; */
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    height: 520px;
+    width: 300px;
+    /* background-color: #1e453e; */
+    background-color: #134e4a;
+    border-radius: 2rem;
+}
+
+.blank-space {
+    width: 15rem;
+    height: 2.5rem;
+    margin: 3rem 1.8rem 3.5rem 1.8rem;
+    font-size: 2.5rem;
+    text-align: right;
+}
+
+.row button {
+    font-size: 2rem;
+    overflow: hidden;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1.6rem;
+    background-color: rgb(99, 97, 97);
+    cursor: pointer;
+    transition: 0.3ms;
+    opacity: 0.8;
+    border: 2px solid whitesmoke;
+    margin-bottom: 0.4rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.row button:last-child {
+    background-color: orange;
+    color: black;
+    opacity: 0.8;
+}
+
+.row button:last-child:hover {
+    background-color: orangered;
+    opacity: 1;
+}
+
+.row button:hover {
+    background-color: lightgray;
+    color: black;
+    opacity: 1;
+}
+
+.container .row:nth-child(6) button:first-child {
+    width: 8rem;
+}
+
+.container .row:nth-child(2) button:first-child {
+    width: 12.5rem;
+    border-radius: 1.8rem;
+}
+.container .row:nth-child(2) button:first-child:hover {
+    background-color: green;
+}
